@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background-image: linear-gradient(to bottom, rgba(231, 229, 229,0.3),rgba(180, 180, 180, 0.5)),url(image/bg-img1.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a {
+    float: right;
+    color: #fff!important;
+}
+#anytime-fitness-icon {
+    padding-left: 20px;
+    height: 4vh;
+    width: auto;
+}
+.navbar-toggler {
+    border: none!important;
+    outline: none!important;
+}
+.fa-bars {
+    color: #fff;
+    font-size: 25px;
+}
+/*-------------Welcome Text-------------*/
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+}
+.welcome h1{
+    color: #333;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+.welcome .btn:focus {
+    box-shadow: none;
+}
+.welcome .btn:hover {
+    color: #fff;
+}
+
+/*-------------About Us-------------*/
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6{
+    padding: 30px 20px;
+}
+#about h3 {
+    margin: 20px auto;
+}
+#workout-icon {
+    width: auto;
+    height: 40vh;
+}
+
+/*-------------Services-------------*/
+#services {
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services .col-md-4 {
+    padding: 20px;
+}
+#services .col-md-4 h4{
+    padding: 5px;
+}
+#services .col-md-4 img{
+    width: 50px;
+}
+#services .col-md-4 p{
+    padding: 5px;
+    text-align: justify;
+}
+
+/*-------------Features-------------*/
+#features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/bg-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+#workout-left-icon {
+    width: auto;
+    height: 60vh;
+}
+#features .col-md-6 {
+    padding: 20px;
+}
+.feature-box {
+    height: 250px;
+}
+.feature-box .feature-left {
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .fas {
+    padding-top: 20px;
+    font-size: 50px;
+}
+.feature-box .feature-right {
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feature-box .feature-right h4 {
+    padding-top: 0px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feature-box .feature-right p {
+    padding-left: 15px;
+    text-align: left;
+}
+/*-------------Reviews-------------*/
+#reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#reviews .col-md-4{
+    padding: 10px 30px;
+}
+#reviews img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: -45px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+.review {
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.review .fa-twitter {
+    color: #236fbb;
+}
+#reviews span {
+    color: #236fbb;
+    font-weight: 600;
+    font-size: 18px;
+}
+#reviews h1 {
+    padding-bottom: 20px;
+    color: #013f7e;
+}
+#reviews p {
+    padding-bottom: 40px;
+}
+#reviews .middle {
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+/*-------------Contact Us-------------*/
+.contactus {
+    padding: 50px 20px;
+    background-color: linen;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    margin-bottom: -160px;
+}
+.contactus h3, p{
+    color: lightslategrey;
+}
+.contactus .input-group {
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.contactus .form-control {
+    border: none;
+    background: transparent;
+}
+.contactus .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+.contactus .input-group-append {
+    background-image: linear-gradient(to right, rgba(214, 181, 148, 0.555), rgba(247, 226, 205, 0.569));
+    border-radius: 30px;
+}
+.contactus .input-group-text {
+    background: transparent;
+    border: none;
+    color: lightslategrey;
+}
+.contactus .btn:focus {
+    box-shadow: none;
+}
+/*-------------Footer--------------*/
+#footer {
+    margin-top: 80px;
+    padding: 100px;
+    background-color: lightslategrey;
+}
+#footer .footer-logo {
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer p {
+    color: rgba(255, 255, 255, 0.5);
+}
+#footer h1 {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p {
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city {
+    margin-left: 40px;
+} 
+#footer .fas, .fab{
+    padding-right: 20px;
+    font-size: 15px;
+} 
+#footer hr {
+    margin-top: 10px;
+}
+#footer .copyright {
+    color: rgb(35, 43, 51);
+}
